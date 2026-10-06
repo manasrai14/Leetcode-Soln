@@ -14,13 +14,6 @@ public:
                 st.push(')');
             }
         }
-        string ans="";
-        while(!st.empty()){
-            ans+=st.top();
-            
-            st.pop();
-        }
-
-        return ans.size();
+        return st.size();
     }
 };
